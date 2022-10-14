@@ -1,0 +1,72 @@
+
+.post{
+    max-width: 600px;
+    margin-bottom: 70px;
+}
+
+video{
+    height: auto;
+    width: 100%;
+}
+
+.quotes{
+    font-style: italic;
+    color: gray;
+    font-size: small;
+}
+
+.post p{
+    color: gray;
+    font-size: medium;
+}
+
+
+.Avatar{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.Avatar img{
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+}
+
+.Avatar h3{
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+.Avatar p{
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+.auther{
+    max-width: 468px;
+}
+
+.auther p{
+    color: gray;
+    font-size: small;
+}
+
+
+.icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+
+@media(min-width:1024px){
+    .post{
+        max-width: 1024px;
+    }
+    .auther{
+        max-width: 600px;
+    }
+}
